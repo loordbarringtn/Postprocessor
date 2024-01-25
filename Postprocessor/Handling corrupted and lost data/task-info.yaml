@@ -1,0 +1,331 @@
+type: remote_edu
+files:
+  - name: database.csv
+    visible: true
+    text: |-
+      id, nickname, password, consent to mailing
+      1, Mgkfuaqyw, v3iohwet, yes
+      2, -, vdjp25gh, yes
+      3, -, 6y49ep5m, yes
+      4, Eenjwuaed, ysvn1lqa, no
+      5, -, t17v0pbu, no
+      6, -, sfdtjblr, yes
+      7, -, c6i4tv53, no
+      8, Cwjqsogix, cukmy3t5, yes
+      9, Pqxmswwmh, txuz8lom, -
+      10, Umzrktmfj, xlt5unq9, -
+      11, Ysngakeaf, 2ztnuoep, -
+      12, -, 7dhtkc39, no
+      13, -, 0atpicmb, -
+      14, -, 0281h5dn, no
+      15, -, uglx3t84, no
+      16, -, byp1h3ja, no
+      17, -, muaxvjtp, -
+      18, -, 68knrbcj, -
+      19, -, xk5oqy8h, no
+      20, Uuhapiili, nfkvwtlp, no
+      21, Mdqcusyhf, 253n4b9d, yes
+      22, Pvvnevmhz, frmk6v0n, no
+      23, -, 6uy2oa4q, no
+      24, -, 1q5tckse, -
+      25, -, ksdjp0mb, no
+      26, -, bo29puw4, yes
+      27, -, viob0e6m, -
+      28, Gvvycnszs, wtl4borq, yes
+      29, -, go9hs3rf, no
+      30, Wpvkrlrxx, 0f91zxew, yes
+      31, Uzjownwcq, 3xrco765, -
+      32, Dqkskpeag, a6xhju4f, yes
+      33, Sizgljooj, 9214hieo, -
+      34, -, fbso36p0, no
+      35, -, sa0heglo, no
+      36, -, v36q7wd2, -
+      37, -, e529j7yv, no
+      38, Uzlbrxqhl, mxoalq2t, -
+      39, Hljaiqkhe, pc78ktiz, -
+      40, -, iryc1m42, -
+      41, Ddwjqvuxs, pea9un10, -
+      42, -, 4zyvwa8b, -
+      43, Gtrpwbtbx, kfp2wq1z, no
+      44, Lquvnqxem, 9vqg0r3y, no
+      45, Zlfzckynm, jcpat27s, -
+      46, -, iyjql3nb, yes
+      47, -, n63tz9am, -
+      48, -, 2cfs7y14, no
+      49, -, c3v4mfk1, -
+      50, -, zg3s0bjr, yes
+      51, Ajjidacbt, ol4hut76, yes
+      52, Zlvpmyoag, kgmp0839, -
+      53, Smowvdtne, 1gsvtxnk, yes
+      54, Fffeneiqq, h9flv8ot, -
+      55, Swupvrbhn, t3gs7wqo, yes
+      56, -, 16igxrf5, no
+      57, -, 7und8c2f, no
+      58, Aekxkubpk, ndk5lm9a, no
+      59, Ufmzxzkxe, ey9i20un, no
+      60, Qlaqzkeyv, u9fgosa7, -
+      61, -, k32i1fpw, no
+      62, -, i8d1vyg3, no
+      63, -, gc4lwn05, yes
+      64, -, ti30szc7, yes
+      65, -, olfdbxzw, yes
+      66, Twgjuwfds, a5c0rmbv, yes
+      67, Mmhzzvnfq, 2he56kuz, no
+      68, Mywpkgnif, qklvj34m, yes
+      69, Wjsxyjynw, x5odv0si, no
+      70, Jkhzmyows, z3sm72ku, no
+      71, Dnefimhpt, jckh3la5, no
+      72, Muxwiuhhf, sbc43jo1, no
+      73, -, gqb8pu17, -
+      74, Ibsyoonin, y6789gv3, yes
+      75, Uxjeiojvl, mra3vj48, yes
+      76, -, i0nh9tdp, no
+      77, -, vhfnso7m, -
+      78, Ouaiysqvu, y3akwle5, yes
+      79, -, vy40fixm, -
+      80, -, 7wesx8qg, no
+      81, Efkzpikuf, alxziruy, -
+      82, -, 3dwgfr47, no
+      83, -, da6lu9rx, -
+      84, -, taxurcpv, no
+      85, -, t8xp0s7r, -
+      86, Rcthnalow, 6x9p5goj, -
+      87, Ggirmjwqo, h23cg71k, yes
+      88, -, p5q2az1j, yes
+      89, -, undl5b83, no
+      90, Nvbxkoram, sdv9leiy, -
+      91, Cefachhom, aqpo09ln, -
+      92, -, 7rn6y130, no
+      93, Ewvmjukzi, qra7fe2t, -
+      94, -, kxagpohq, yes
+      95, Yqfsxiuhr, 95mt8rwy, no
+      96, -, va4bk7ow, yes
+      97, -, 8u9xzb1o, -
+      98, Lbivnpxga, frgmbou7, yes
+      99, -, khbjztws, yes
+      100, -, kid4gofw, -
+    learner_created: false
+  - name: main.js
+    visible: true
+    text: // write your code here
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    text: "from hstest import *\nimport random\nimport hashlib\nimport os\nimport string\n\
+    \n\nclass Test(StageTest):\n    def random_word(self, length):\n        letters\
+    \ = string.ascii_lowercase\n        capital_letter = random.choice(string.ascii_uppercase)\n\
+    \        return capital_letter + ''.join(random.choice(letters) for i in range(length))\n\
+    \n    def random_password(self):\n        buffer = string.ascii_lowercase + string.digits\n\
+    \        return ''.join(random.sample(buffer, 8))\n\n    def create_file(self,\
+    \ variant):\n        if variant == 'database':\n            with open(\"database.csv\"\
+    , \"a\") as file:\n                file.write('id, nickname, password, consent\
+    \ to mailing')\n                for index in range(1, 101):\n                \
+    \    name = random.choice([self.random_word(8), '-'])\n                    password\
+    \ = self.random_password()\n                    mailing = random.choice(['yes',\
+    \ 'no', '-'])\n                    line = f'\\n{index}, {name}, {password}, {mailing}'\n\
+    \                    file.write(line)\n        if variant == 'hash_database':\n\
+    \            with open(\"hash_database.csv\", \"a\") as file:\n              \
+    \  file.write('id, nickname, password, consent to mailing\\n')\n        if variant\
+    \ == 'filtered_database':\n            with open(\"filtered_database.csv\", \"\
+    a\") as file:\n                file.write('id, nickname, password, consent to\
+    \ mailing\\n')\n\n    @dynamic_test()\n    def test(self):\n        random.seed(88)\n\
+    \n        if not os.path.isfile('database.csv'):\n            self.create_file('database')\n\
+    \n        with open('database.csv') as f:\n            lines = [line.strip('\\\
+    n').split(', ') for line in f if len(line) > 1]\n            if len(lines) < 101:\n\
+    \                open('database.csv', 'w').close()\n                self.create_file('database')\n\
+    \                lines = [line.strip('\\n').split(', ') for line in f if len(line)\
+    \ > 1]\n            lines.pop(0)\n\n        if not os.path.isfile('hash_database.csv'):\n\
+    \            self.create_file('hash_database')\n\n        if not os.path.isfile('filtered_database.csv'):\n\
+    \            self.create_file('filtered_database')\n\n        main = TestedProgram()\n\
+    \        main.start()\n\n        with open('hash_database.csv') as f:\n      \
+    \      hash_lines = [hash_line.split(', ') for hash_line in f if len(hash_line)\
+    \ > 1]\n            if not hash_lines or hash_lines[0] != ['id', 'nickname', 'password',\
+    \ 'consent to mailing\\n']:\n                return CheckResult.wrong(\"It looks\
+    \ like your file is missing the first line 'id, nickname, password, \" \n    \
+    \                                     \"consent to mailing'. It should be in the\
+    \ first place, \"\n                                         \" as indicated in\
+    \ the screenshot in the task.\")\n            if len(hash_lines) < 101:\n    \
+    \            return CheckResult.wrong(\"It looks like your hash_database.csv file\
+    \ has fewer lines \"\n                                         \"than your original\
+    \ database.csv file. You may have lost some lines!\")\n            if len(hash_lines)\
+    \ > 101:\n                return CheckResult.wrong(\"It seems your hash_database.csv\
+    \ file contains more rows than expected!\"\n                                 \
+    \        \" You may have duplicated the data!\")\n\n        with open('filtered_database.csv')\
+    \ as f:\n            lines = [line.split(', ') for line in f if len(line) > 1]\n\
+    \            if len(lines) < 30:\n                return CheckResult.wrong(f'It\
+    \ looks like you deleted some data because the expected number' +\n          \
+    \                               f' of non-blank lines is 30, but there are {len(lines)}'\n\
+    \                                         f' non-blank lines in your file')\n\n\
+    \            if len(lines) > 30:\n                return CheckResult.wrong(f'It\
+    \ looks like you added some extra data because the expected number' +\n      \
+    \                                   f' of non-blank lines is 30, but there are\
+    \ {len(lines)}'\n                                         f' non-blank lines in\
+    \ your file')\n\n            lines.pop(0)\n\n        with open('./test/tests_filtered_database.csv')\
+    \ as f:\n            tests_lines = [line.split(', ') for line in f if len(line)\
+    \ > 1]\n            tests_lines.pop(0)\n\n        random_line = random.choice(lines)\n\
+    \        random_id = int(random_line[0])\n\n        if random_line != tests_lines[random_id\
+    \ - 1]:\n            return CheckResult.wrong(f'Your user information: {random_line},'\n\
+    \                                     f' although the following line was expected:\
+    \ {tests_lines[random_id - 1]}')\n\n        return CheckResult.correct()\n\n\n\
+    if __name__ == '__main__':\n    Test().run_tests()\n"
+    learner_created: false
+  - name: test/tests_filtered_database.csv
+    visible: false
+    text: |-
+      id, nickname, password, consent to mailing
+      1, Mgkfuaqyw, 8f9e2d2168b75ca7bdbb46021bf6a234b295d4cd6d8edcc6f747ce146ee69f2a, yes
+      2, Eenjwuaed, b80a4f00db9227b6dbd52a5dd0e146f39275c5c9186ae0efccf894d61cd5a75a, no
+      3, Cwjqsogix, 9511069eb030e7a1637f356a5af77022229bdb71077ee9f4005627516e5477a5, yes
+      4, Uuhapiili, 05fb25a9f27cd55a4663e060f84116873fb2ec7acfee3fcd42e7679e3c658578, no
+      5, Mdqcusyhf, 427b5f136d6fe2270c14d8ee6a49c2085058b00a5adf89c63d8728cba843bf95, yes
+      6, Pvvnevmhz, 50290afa0e64cac4cf5c76e2029d97875d3c2bc67adf6e060df0da3fcf4220fb, no
+      7, Gvvycnszs, ad00e00911741d38a60414bb9737cea3646e58ba7eba97e6c25efd63f57aa385, yes
+      8, Wpvkrlrxx, 9b217b6f70305f45443565a02707638e9ef4a7553ba37d737a8720d8e5180c37, yes
+      9, Dqkskpeag, 725b6ec902bcad1d67b4317da1a36e011b8fab7155fff385dbbd30d02fe4a6f0, yes
+      10, Gtrpwbtbx, 7aee4d789c701e5f373a86d44bc3bb81c2852ed3f98a15a35ca7def39ed7ae6c, no
+      11, Lquvnqxem, 33334d7b104d6da8e02a4fd7409177f079a43e5df7d63c96b582ff838839dafa, no
+      12, Ajjidacbt, 3ad04f2f18f8efc5341f761c323a093a1fdbb8a1ae2b3484857a4d3917e51f87, yes
+      13, Smowvdtne, d5e1033ef47e921e186bbf6e61709f7e21195f50a6034568be78d2cacbd837e9, yes
+      14, Swupvrbhn, c7705b190e14da3c90790276b82a9ed055fbe2ef9ec3cd6bd4fef03a344af8db, yes
+      15, Aekxkubpk, 9d1cf378520915d7d86d1dddc0411fba62d4c866bc3232f01cc1ed22175c4347, no
+      16, Ufmzxzkxe, 4c99de6a9a87a8aadb980790faac462e34d86d696ca3993a71a4b00d1b00e5a4, no
+      17, Twgjuwfds, fab731d6f4b9a19804e94e387e56df3bf2287d8b396d604683741335d1c54fae, yes
+      18, Mmhzzvnfq, 6f60b1c04d7ca36e556b00fbd3d3a871a96c1c76e4cad48166637e410dec90f0, no
+      19, Mywpkgnif, 99ea07db564cc817ea58494dc18ce9e31272b19b691a90baf789ab62bd32136a, yes
+      20, Wjsxyjynw, 86f2cfb228ff83db8995081161acb30ed9b53be4ce9616ce10aab9e44dbd063c, no
+      21, Jkhzmyows, 548d9c1733833fd755f97a4bd121c31d03a31ceedeeddf2e6e94f833673753b7, no
+      22, Dnefimhpt, 8513fac436f0890b202b387b450dd844f4e5157ccec19a8035a5fad5d1b77936, no
+      23, Muxwiuhhf, db0fa0bf6ff3d66c67f68c8057efff177bc5fe747ef26bb6fd7745dde27ae7dc, no
+      24, Ibsyoonin, 6a12c06380e3a6bc6b544b7537844d9b95dd100be21a2632e76b76a7ecdc283c, yes
+      25, Uxjeiojvl, 3f28317dbe4c1a7158acad0bdb8b48e0af842707221715bacc2f3a4e640c9caf, yes
+      26, Ouaiysqvu, d1db94c46b3d654bcb6e945e299786903a8911dc703a108253991a619d32b3e8, yes
+      27, Ggirmjwqo, 028913ca76956df4cb7d0cbe6b5d180933fb36eaf011feb7683bb98e3c47a90c, yes
+      28, Yqfsxiuhr, f1daa65b35902390b77012da1abfe810df4a18a58ef872f30ae3435c1dedec71, no
+      29, Lbivnpxga, 46be042248d028b4ecd863fe8592a93197ca0d851af6d39b0f6f099895330436, yes
+    learner_created: false
+  - name: tests.py
+    visible: false
+    text: |
+      from test.tests import Test
+      
+      if __name__ == '__main__':
+          Test().run_tests()
+    learner_created: false
+  - name: hash_database.csv
+    visible: true
+    text: |
+      id, nickname, password, consent to mailing
+      1,  Mgkfuaqyw, 8f9e2d2168b75ca7bdbb46021bf6a234b295d4cd6d8edcc6f747ce146ee69f2a,  yes
+      2,  -, a705bccdb5da9243d03c4b95951924eebf4b0d20a240d392d4b0c4dd9b3eed7d,  yes
+      3,  -, d3b0af67a01c84985db401a3383d56c9030c044500b77706bfc201a490a6d78d,  yes
+      4,  Eenjwuaed, b80a4f00db9227b6dbd52a5dd0e146f39275c5c9186ae0efccf894d61cd5a75a,  no
+      5,  -, 129de4656f035120411373f20b0bdf694ce6be632fbf1fe57ddd99eb7eb1f4fe,  no
+      6,  -, 0144f4b868d7f51527b34e58fcd0f4523645eab74f8b28a643f5a8f218284d21,  yes
+      7,  -, 20a74adb197930fcb49eda78a0a3d276a7f1543c8a1008e4ec3d9bf4e5d4db02,  no
+      8,  Cwjqsogix, 9511069eb030e7a1637f356a5af77022229bdb71077ee9f4005627516e5477a5,  yes
+      9,  Pqxmswwmh, 03c6e64bd2a39d8614536c49d3067a2ebcb9321d8e1fc9f02b0bb7eaa09af4bf,  -
+      10,  Umzrktmfj, 299837c7c3b9aeaa246b0b4a99d7c5ac564755b90ac9a62ca0fc3e5a00d964bc,  -
+      11,  Ysngakeaf, b2d8a918e3aab1c1907327de5fb9dfd960706b64d5a557919041c819728f865e,  -
+      12,  -, ad250f5ea21cf4a8841d1606ec63095d0f30c004f5061bfdcb524013332118db,  no
+      13,  -, 31de7df7f4dbc5154efe7a116423738800a2173eef9eb63da5f46e0a1f7bbbbd,  -
+      14,  -, d21c3161a7e70bd962ca436c21c0878330002ad7ceb63b25a3a1c0faf6617c56,  no
+      15,  -, af721651bf3fcc735acc17261b8ee228b8eebe25c579c591b265601de417d3c7,  no
+      16,  -, f828f615e8d9a35b5a759bbc7ff90b8563cfafc228a64de0414482e03217e22d,  no
+      17,  -, 7560ffd00118e31bfc2adf7907f626f6cda15c53b038301dd139587f3bab3e44,  -
+      18,  -, 18b8af08cb8e57a91d0fdc4c5533edca1335bd48a794eb300c6a67e921cda115,  -
+      19,  -, a83fd94ec1e2f089f0f7660bd576730ad61b6c623bc864971059a64d6d100503,  no
+      20,  Uuhapiili, 05fb25a9f27cd55a4663e060f84116873fb2ec7acfee3fcd42e7679e3c658578,  no
+      21,  Mdqcusyhf, 427b5f136d6fe2270c14d8ee6a49c2085058b00a5adf89c63d8728cba843bf95,  yes
+      22,  Pvvnevmhz, 50290afa0e64cac4cf5c76e2029d97875d3c2bc67adf6e060df0da3fcf4220fb,  no
+      23,  -, acc413cd49cc12988dcdd7c17af0442d82ee1548d8a1a10bbed2b1405d0e81c0,  no
+      24,  -, 8660ac20aede6160208b6d7da3a73d9c5e5706036659bdfa98753d4d5c7271f7,  -
+      25,  -, 45c5a8cb13904e2fcfd083d4197637b569bfb905e5510e49bfc48c8e4f41e661,  no
+      26,  -, cee4200efa830bbb93d411dbe064d97f1f02d7692d402dcbd03d848f686f44f2,  yes
+      27,  -, e55947e835b22e0014fa7e81ee297b2c2d18692873dadc1c805426eb371a7376,  -
+      28,  Gvvycnszs, ad00e00911741d38a60414bb9737cea3646e58ba7eba97e6c25efd63f57aa385,  yes
+      29,  -, f5b0f50c3da1621c8e4dfdda6180006dc3e36e674ef5c6169f05a0f3fd572de0,  no
+      30,  Wpvkrlrxx, 9b217b6f70305f45443565a02707638e9ef4a7553ba37d737a8720d8e5180c37,  yes
+      31,  Uzjownwcq, b9e2c031eb443d274aaccaaf46cfd53c0da34ef930fb907aadb5f55beef69d33,  -
+      32,  Dqkskpeag, 725b6ec902bcad1d67b4317da1a36e011b8fab7155fff385dbbd30d02fe4a6f0,  yes
+      33,  Sizgljooj, 501e9ae0ebc0fed262bc9755c2cac1d21aa515c418e8cf205d2e9509d24abc7c,  -
+      34,  -, 268cd4fa3231a68918844dde812ebba0b8ce2885a5ca4a16bd1321066fdc71cb,  no
+      35,  -, aab5200371172adc193742d74a512b094ea2fcb4c7a0986e4e76629249b8341f,  no
+      36,  -, 5f0d7600d4b8a4a28fa01b8d9b6e31fae5c4102da1bf6fe071a8e3bf7dd05d48,  -
+      37,  -, 2a460fa908796ab2e1b40fd5117ea817e41e6ec41408bc943c930c6310b01ee7,  no
+      38,  Uzlbrxqhl, 98d2f57946dcd06a806a4b183de58a78c2cb6d557309cd1b818b5dff11b861be,  -
+      39,  Hljaiqkhe, b2e8e4fe1102210dcaa8358e5c5ca6e6e5728e94f7b52b422bba0db712b7370c,  -
+      40,  -, e5583a2efc114cb320295c9a3875151dd1d409f94a9b910a6f7868fecb430a99,  -
+      41,  Ddwjqvuxs, 3b86080bc80fc6636794dc7c275ed7d79f2526581d1f0589b910bd656460418b,  -
+      42,  -, 1dba86a58f4b5cd384fd8c6433aa6c1ff85601ae3659d211b6e53d5c3a98bcf0,  -
+      43,  Gtrpwbtbx, 7aee4d789c701e5f373a86d44bc3bb81c2852ed3f98a15a35ca7def39ed7ae6c,  no
+      44,  Lquvnqxem, 33334d7b104d6da8e02a4fd7409177f079a43e5df7d63c96b582ff838839dafa,  no
+      45,  Zlfzckynm, 35eb18ea337ee31521c1eae513ba260466f32ffb4ac74e8085361a9e87bb3120,  -
+      46,  -, 1be19df8ca476d949cd3a2c508cf259bfad57aca334ee57db0dbc2d39ba63e58,  yes
+      47,  -, bb15739debebd36c3be26ecc917529ffb0007bbb6d3a21df986b72417b41074e,  -
+      48,  -, ab6cabe08e40aacac851a0718ed89e42b0b9dbaf702677dc79cab75a1116e0d1,  no
+      49,  -, a5967fbc9ff8cdcd89169b7c0cb96251d146a9dc61ef545af0fc53b8c848d764,  -
+      50,  -, 9445113d61324c48e35947043b1fe697c35c0c60a80e4ab6fb6e6df6495aa797,  yes
+      51,  Ajjidacbt, 3ad04f2f18f8efc5341f761c323a093a1fdbb8a1ae2b3484857a4d3917e51f87,  yes
+      52,  Zlvpmyoag, 1c65b9947a26764c4b9df813c55ce73cd877cf19842fdd48903140f6b62e423e,  -
+      53,  Smowvdtne, d5e1033ef47e921e186bbf6e61709f7e21195f50a6034568be78d2cacbd837e9,  yes
+      54,  Fffeneiqq, d24c8a207fc4f2c8826fb720aeae68ff1c9cfe2e5357b76248af4d530e19dcf3,  -
+      55,  Swupvrbhn, c7705b190e14da3c90790276b82a9ed055fbe2ef9ec3cd6bd4fef03a344af8db,  yes
+      56,  -, 07a2ac0349ed3f466914f82cccee0ef8192be1c9861949c0d282b495ced060d0,  no
+      57,  -, 7e62618735f903b5d2f1894840ef4c1960851a23f3aab7ce9ad0efb03c00a764,  no
+      58,  Aekxkubpk, 9d1cf378520915d7d86d1dddc0411fba62d4c866bc3232f01cc1ed22175c4347,  no
+      59,  Ufmzxzkxe, 4c99de6a9a87a8aadb980790faac462e34d86d696ca3993a71a4b00d1b00e5a4,  no
+      60,  Qlaqzkeyv, ad4c37ed44363b5143d2acc90e0c0ca041b4da717468f38abeb948876542cb88,  -
+      61,  -, b91eee43d41fe4df7ff35cf30e75211b9e3fadf4130ce42d67c0dc8ae3a2ae71,  no
+      62,  -, 8fec31c252b2a1078ae15a743bfa86a2d1c8d9ed9732bd535c05db89f7e531b5,  no
+      63,  -, ddc9a0e78d596aa32d775764de1a0c2eb478028144857400adc3b07c6d62d2a0,  yes
+      64,  -, 395deec4457008c854c27456f292e04094c3f24188f80a714ae771c56b13d7ad,  yes
+      65,  -, c4b8769a2366ebd129ef3add5f10c77592bab845e82e7cde0016e9983fdf4204,  yes
+      66,  Twgjuwfds, fab731d6f4b9a19804e94e387e56df3bf2287d8b396d604683741335d1c54fae,  yes
+      67,  Mmhzzvnfq, 6f60b1c04d7ca36e556b00fbd3d3a871a96c1c76e4cad48166637e410dec90f0,  no
+      68,  Mywpkgnif, 99ea07db564cc817ea58494dc18ce9e31272b19b691a90baf789ab62bd32136a,  yes
+      69,  Wjsxyjynw, 86f2cfb228ff83db8995081161acb30ed9b53be4ce9616ce10aab9e44dbd063c,  no
+      70,  Jkhzmyows, 548d9c1733833fd755f97a4bd121c31d03a31ceedeeddf2e6e94f833673753b7,  no
+      71,  Dnefimhpt, 8513fac436f0890b202b387b450dd844f4e5157ccec19a8035a5fad5d1b77936,  no
+      72,  Muxwiuhhf, db0fa0bf6ff3d66c67f68c8057efff177bc5fe747ef26bb6fd7745dde27ae7dc,  no
+      73,  -, 9f20f1fa09a2ee0634ee45d1b82065537cc0622a5ed7e2c20d5e82c4c71f7cde,  -
+      74,  Ibsyoonin, 6a12c06380e3a6bc6b544b7537844d9b95dd100be21a2632e76b76a7ecdc283c,  yes
+      75,  Uxjeiojvl, 3f28317dbe4c1a7158acad0bdb8b48e0af842707221715bacc2f3a4e640c9caf,  yes
+      76,  -, cbc2ebd9fa1b95a08f11ec13598bfc6c8ca013ac972052bd2e8fb88ed8431191,  no
+      77,  -, f4dc01fd45849be2e47b0dc9aabe3547a989f3f0e3d7fc4fba63bcb6e04ce474,  -
+      78,  Ouaiysqvu, d1db94c46b3d654bcb6e945e299786903a8911dc703a108253991a619d32b3e8,  yes
+      79,  -, 6e5d912eac62edf72fb72a0c7b6bb4eb0a11720a70c694006c99d9cb9af67d2a,  -
+      80,  -, 8144cb8f4c43e6b719fcb877a27c294e5632fac5158ca9593468be9d70ff87b1,  no
+      81,  Efkzpikuf, 40fed38d607fb7b2f0e4343e2212147c40020ddbc96c769b04129d4c0b54567f,  -
+      82,  -, 0326c78e52966d11438472a53dc031a843e18839b7a0b262348a42ec000cc6b6,  no
+      83,  -, 0a809039b8f7b331f2dcb1fbcf0c8eafa913de09ff4d83156a8052511e9bd24e,  -
+      84,  -, 4e4480636284a85f9dcc83b488a5e51f789d5c94803ff66ba14141b7eed91d0f,  no
+      85,  -, 35021b4d1adca83f91dafb1e0964e37e5a5b6ea2ad4aff9bfc8896fc0cb55c63,  -
+      86,  Rcthnalow, 2ff93ca22dc2e032861c0a9df4e002b68924b255a08717a11b55497a2aed0a69,  -
+      87,  Ggirmjwqo, 028913ca76956df4cb7d0cbe6b5d180933fb36eaf011feb7683bb98e3c47a90c,  yes
+      88,  -, 01f24e0d43715e5843c2932ec728f28b807e02e45923b2a25279bc7bb485544e,  yes
+      89,  -, 129a022f36b15877e3f7dc70f56077595a538c2e5ef1911c8ff6de47bb541b8e,  no
+      90,  Nvbxkoram, 6ca5e7608a8a46a3e6d5a8df2da2b88d37c0aad9f7d5f351a85f5231027e57ab,  -
+      91,  Cefachhom, 1b33e1a26fa2b03318bf4b4bc170c2a47d342e31817ffb6980a0eb84d7aa5934,  -
+      92,  -, 9465ae75775f7ad63c6a312d194b54d96c80bc6ad5a4d500bf37010f57aaaf0f,  no
+      93,  Ewvmjukzi, 5ca2b9a52fa54bf8b4f5c63d2b79517feb24a4516c8e88c5bc49fc78b7fbb72e,  -
+      94,  -, 3197ab3e32ce35f23ddf433e6d7f726b9ffcbf0f53b9e02c0bdbd7b4bc579892,  yes
+      95,  Yqfsxiuhr, f1daa65b35902390b77012da1abfe810df4a18a58ef872f30ae3435c1dedec71,  no
+      96,  -, f400dee00bfca3d79dd9958815c4d4a60538eb75915345eb673acc4dda3fe4a7,  yes
+      97,  -, 671ca804299c327d14d33c811c83037c37b653fecbcff5cf5d530e277d4dafaf,  -
+      98,  Lbivnpxga, 46be042248d028b4ecd863fe8592a93197ca0d851af6d39b0f6f099895330436,  yes
+      99,  -, 139244c1aaf2a13419adb84bf8c08717dcbbdcc67df754062ac0f45a87551b04,  yes
+      100,  -, 4279b96bdd1b5640402f4866cb89d44f8306d63cc3ec6a32d6c21ca5167280b5,  -
+    learner_created: true
+  - name: filtered_database.csv
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/25698#comment
+check_profile: hyperskill_node_javascript
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 25 Jan 2024 23:12:57 UTC"
+record: -1

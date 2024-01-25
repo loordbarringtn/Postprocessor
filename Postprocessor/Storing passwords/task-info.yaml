@@ -1,0 +1,184 @@
+type: remote_edu
+files:
+  - name: database.csv
+    visible: true
+    text: |-
+      id, nickname, password, consent to mailing
+      1, Mgkfuaqyw, v3iohwet, yes
+      2, -, vdjp25gh, yes
+      3, -, 6y49ep5m, yes
+      4, Eenjwuaed, ysvn1lqa, no
+      5, -, t17v0pbu, no
+      6, -, sfdtjblr, yes
+      7, -, c6i4tv53, no
+      8, Cwjqsogix, cukmy3t5, yes
+      9, Pqxmswwmh, txuz8lom, -
+      10, Umzrktmfj, xlt5unq9, -
+      11, Ysngakeaf, 2ztnuoep, -
+      12, -, 7dhtkc39, no
+      13, -, 0atpicmb, -
+      14, -, 0281h5dn, no
+      15, -, uglx3t84, no
+      16, -, byp1h3ja, no
+      17, -, muaxvjtp, -
+      18, -, 68knrbcj, -
+      19, -, xk5oqy8h, no
+      20, Uuhapiili, nfkvwtlp, no
+      21, Mdqcusyhf, 253n4b9d, yes
+      22, Pvvnevmhz, frmk6v0n, no
+      23, -, 6uy2oa4q, no
+      24, -, 1q5tckse, -
+      25, -, ksdjp0mb, no
+      26, -, bo29puw4, yes
+      27, -, viob0e6m, -
+      28, Gvvycnszs, wtl4borq, yes
+      29, -, go9hs3rf, no
+      30, Wpvkrlrxx, 0f91zxew, yes
+      31, Uzjownwcq, 3xrco765, -
+      32, Dqkskpeag, a6xhju4f, yes
+      33, Sizgljooj, 9214hieo, -
+      34, -, fbso36p0, no
+      35, -, sa0heglo, no
+      36, -, v36q7wd2, -
+      37, -, e529j7yv, no
+      38, Uzlbrxqhl, mxoalq2t, -
+      39, Hljaiqkhe, pc78ktiz, -
+      40, -, iryc1m42, -
+      41, Ddwjqvuxs, pea9un10, -
+      42, -, 4zyvwa8b, -
+      43, Gtrpwbtbx, kfp2wq1z, no
+      44, Lquvnqxem, 9vqg0r3y, no
+      45, Zlfzckynm, jcpat27s, -
+      46, -, iyjql3nb, yes
+      47, -, n63tz9am, -
+      48, -, 2cfs7y14, no
+      49, -, c3v4mfk1, -
+      50, -, zg3s0bjr, yes
+      51, Ajjidacbt, ol4hut76, yes
+      52, Zlvpmyoag, kgmp0839, -
+      53, Smowvdtne, 1gsvtxnk, yes
+      54, Fffeneiqq, h9flv8ot, -
+      55, Swupvrbhn, t3gs7wqo, yes
+      56, -, 16igxrf5, no
+      57, -, 7und8c2f, no
+      58, Aekxkubpk, ndk5lm9a, no
+      59, Ufmzxzkxe, ey9i20un, no
+      60, Qlaqzkeyv, u9fgosa7, -
+      61, -, k32i1fpw, no
+      62, -, i8d1vyg3, no
+      63, -, gc4lwn05, yes
+      64, -, ti30szc7, yes
+      65, -, olfdbxzw, yes
+      66, Twgjuwfds, a5c0rmbv, yes
+      67, Mmhzzvnfq, 2he56kuz, no
+      68, Mywpkgnif, qklvj34m, yes
+      69, Wjsxyjynw, x5odv0si, no
+      70, Jkhzmyows, z3sm72ku, no
+      71, Dnefimhpt, jckh3la5, no
+      72, Muxwiuhhf, sbc43jo1, no
+      73, -, gqb8pu17, -
+      74, Ibsyoonin, y6789gv3, yes
+      75, Uxjeiojvl, mra3vj48, yes
+      76, -, i0nh9tdp, no
+      77, -, vhfnso7m, -
+      78, Ouaiysqvu, y3akwle5, yes
+      79, -, vy40fixm, -
+      80, -, 7wesx8qg, no
+      81, Efkzpikuf, alxziruy, -
+      82, -, 3dwgfr47, no
+      83, -, da6lu9rx, -
+      84, -, taxurcpv, no
+      85, -, t8xp0s7r, -
+      86, Rcthnalow, 6x9p5goj, -
+      87, Ggirmjwqo, h23cg71k, yes
+      88, -, p5q2az1j, yes
+      89, -, undl5b83, no
+      90, Nvbxkoram, sdv9leiy, -
+      91, Cefachhom, aqpo09ln, -
+      92, -, 7rn6y130, no
+      93, Ewvmjukzi, qra7fe2t, -
+      94, -, kxagpohq, yes
+      95, Yqfsxiuhr, 95mt8rwy, no
+      96, -, va4bk7ow, yes
+      97, -, 8u9xzb1o, -
+      98, Lbivnpxga, frgmbou7, yes
+      99, -, khbjztws, yes
+      100, -, kid4gofw, -
+    learner_created: false
+  - name: main.js
+    visible: true
+    text: // write your code here
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    text: "from hstest import *\nimport random\nimport hashlib\nimport os\nimport string\n\
+    \n\nclass Test(StageTest):\n    def random_word(self, length):\n        letters\
+    \ = string.ascii_lowercase\n        capital_letter = random.choice(string.ascii_uppercase)\n\
+    \        return capital_letter + ''.join(random.choice(letters) for i in range(length))\n\
+    \n    def random_password(self):\n        buffer = string.ascii_lowercase + string.digits\n\
+    \        return ''.join(random.sample(buffer, 8))\n\n    def create_file(self,\
+    \ variant):\n        if variant == 'database':\n            with open(\"database.csv\"\
+    , \"a\") as file:\n                file.write('id, nickname, password, consent\
+    \ to mailing')\n                for index in range(1, 101):\n                \
+    \    name = random.choice([self.random_word(8), '-'])\n                    password\
+    \ = self.random_password()\n                    mailing = random.choice(['yes',\
+    \ 'no', '-'])\n                    line = f'\\n{index}, {name}, {password}, {mailing}'\n\
+    \                    file.write(line)\n        if variant == 'hash_database':\n\
+    \            with open(\"hash_database.csv\", \"a\") as file:\n              \
+    \  file.write('id, nickname, password, consent to mailing\\n')\n\n    @dynamic_test()\n\
+    \    def test(self):\n        random.seed(88)\n\n        if not os.path.isfile('database.csv'):\n\
+    \            self.create_file('database')\n\n        with open('database.csv')\
+    \ as f:\n            lines = [line.strip('\\n').split(', ') for line in f if len(line)\
+    \ > 1]\n            if len(lines) < 101:\n                open('database.csv',\
+    \ 'w').close()\n                self.create_file('database')\n               \
+    \ lines = [line.strip('\\n').split(', ') for line in f if len(line) > 1]\n   \
+    \         lines.pop(0)\n            last_index = int(lines[-1][0])\n\n       \
+    \ if not os.path.isfile('hash_database.csv'):\n            self.create_file('hash_database')\n\
+    \n        main = TestedProgram()\n        main.start()\n\n        with open('hash_database.csv')\
+    \ as f:\n            hash_lines = [hash_line.split(', ') for hash_line in f if\
+    \ len(hash_line) > 1]\n            if len(hash_lines) == 0:\n                return\
+    \ CheckResult.wrong(\"The hash_database.csv file seems to be empty!\")\n     \
+    \       if hash_lines[0] != ['id', 'nickname', 'password', 'consent to mailing\\\
+    n']:\n                return CheckResult.wrong(\"It looks like your file is missing\
+    \ the first line 'id, nickname, password, \" \n                              \
+    \           \"consent to mailing'. It should be in the first place, \"\n     \
+    \                                    \" as indicated in the screenshot in the\
+    \ task.\")\n            if len(hash_lines) < 101:\n                return CheckResult.wrong(\"\
+    It looks like your hash_database.csv file has fewer lines \"\n               \
+    \                          \"than your original database.csv file. You may have\
+    \ lost some lines!\")\n            if len(hash_lines) > 101:\n               \
+    \ return CheckResult.wrong(\"It seems your hash_database.csv file contains more\
+    \ rows than expected!\"\n                                         \" You may have\
+    \ duplicated the data!\")\n            hash_lines.pop(0)\n            last_index\
+    \ = int(lines[-1][0])\n\n        random_line = random.choice(lines)\n        random_id\
+    \ = random_line[0]\n\n        test_hash_password = hashlib.sha256(random_line[2].encode('utf-8')).hexdigest()\n\
+    \n        if len(hash_lines[int(random_id) - 1]) < 4:\n            return CheckResult.wrong(\"\
+    It seems that you have changed the structure of the string, \"\n             \
+    \                        \"for example using a delimiter other than a comma in\
+    \ hash_database.csv file!\")\n\n        if test_hash_password != hash_lines[int(random_id)\
+    \ - 1][2]:\n            return CheckResult.wrong(f'The password hash of the user\
+    \ with id = {random_id} does not match.'\n                                f' Your\
+    \ file has {hash_lines[int(random_id) - 1][2]} but expects {test_hash_password}')\n\
+    \n        return CheckResult.correct()\n\n\nif __name__ == '__main__':\n    Test().run_tests()\n"
+    learner_created: false
+  - name: tests.py
+    visible: false
+    text: |
+      from test.tests import Test
+      
+      if __name__ == '__main__':
+          Test().run_tests()
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: hash_database.csv
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/25697#comment
+check_profile: hyperskill_node_javascript
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 24 Jan 2024 23:01:23 UTC"
+record: 2

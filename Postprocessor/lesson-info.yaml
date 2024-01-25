@@ -1,0 +1,6 @@
+type: framework
+content:
+  - Data structure
+  - Storing passwords
+  - Handling corrupted and lost data
+current_task: 2

@@ -1,0 +1,92 @@
+hyperskill_project:
+  id: 320
+  ide_files: https://cogniterra.org/media/attachments/lesson/27388/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: "Thu, 25 Jan 2024 20:03:35 UTC"
+stages:
+  - id: 1793
+    step: 25696
+    is_completed: true
+  - id: 1794
+    step: 25697
+    is_completed: true
+  - id: 1795
+    step: 25698
+    is_completed: true
+topics:
+  0:
+    - title: World Wide Web
+      theory_id: 6633
+    - title: "HTTP: HyperText Transfer Protocol"
+      theory_id: 6569
+    - title: Comments
+      theory_id: 8170
+    - title: Operating systems
+      theory_id: 9704
+    - title: Units of information
+      theory_id: 6865
+    - title: HTTP URL
+      theory_id: 6740
+    - title: HTTP messages
+      theory_id: 6752
+    - title: REST
+      theory_id: 7834
+    - title: What is module?
+      theory_id: 26523
+    - title: Domains
+      theory_id: 6911
+    - title: IP
+      theory_id: 13662
+    - title: What is an HTTP server?
+      theory_id: 25834
+    - title: Web development
+      theory_id: 13931
+    - title: Introduction to JavaScript
+      theory_id: 8016
+    - title: Writing first program
+      theory_id: 8154
+    - title: Multi-line programs
+      theory_id: 8162
+    - title: Declaring variables
+      theory_id: 8186
+    - title: Strings and numbers
+      theory_id: 8194
+    - title: Arithmetic operators
+      theory_id: 8372
+    - title: Functions
+      theory_id: 8388
+    - title: Defining functions
+      theory_id: 24012
+    - title: Anonymous function
+      theory_id: 26924
+    - title: Arrow Functions
+      theory_id: 8455
+    - title: Array
+      theory_id: 16141
+    - title: Array creation
+      theory_id: 16356
+    - title: JSON
+      theory_id: 6854
+    - title: CommonJS modules
+      theory_id: 23897
+    - title: Array slicing
+      theory_id: 16365
+    - title: CSV
+      theory_id: 13164
+    - title: Introduction to fs module
+      theory_id: 25757
+    - title: Write to file
+      theory_id: 25812
+  1:
+    - title: Modulo division
+      theory_id: 10586
+    - title: Computer algorithms
+      theory_id: 16547
+    - title: "Hashing: overview"
+      theory_id: 9831
+    - title: Hash function
+      theory_id: 30143
+  2:
+    - title: Array iterating
+      theory_id: 18287
